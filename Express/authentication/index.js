@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 // connection url found from mongoDB compass
-mongoose.connect("connection URL"); 
+mongoose.connect(" "); 
 //mongoose checks the schema before proceeding further
  const User = mongoose.model('Users',{name: String,email: String,password: String});
 // perform a post operation to add the user to the database as signed UP user
