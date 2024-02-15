@@ -1,0 +1,60 @@
+<html>
+<body>
+<div>
+    <input type="text"  id="title" placeholder="title"></input><br></br>
+    <input type="text" id="description" placeholder="description"></input><br></br>
+    <button onclick="addTodo()">Add TO-DO</button>
+    <div id="container">
+        <div>title of t odo 1</div>
+        <div>description of to do 1</div>
+        <button>Mark as Done</button>
+    </div>
+</div>
+<script>
+    let globalId = 1;
+    // function addTodo(){
+    //     const title = document.getElementById("title").value;
+    //     const description = document.getElementById("description").value;
+    //     const originalHtml = document.getElementById("container").innerHTML;
+    //      // DOM manipulation is bad way of accessing data,to overcome this we use document.createElement 
+    //      // document.getElementById("container"). 
+    //      // innerHTML =originalHtml + `<div>
+    //      //        <div>${title}</div>
+    //      //        <div>${description}</div>
+    //      //        <button>Mark as Done</button>
+    //      //     </div>`
+    //     const childDiv = document.createElement("div");
+    //     outerDiv.innerHTML = title ;
+    //     document.getElementById("container").appendChild(childDiv);
+        
+    // } 
+    function markasDone(todoId){
+
+        const parent = document.getElementById(todoId);
+        parent.children[2].innerHTML = "Done!"
+    }
+    function createChild(title,description,id){
+        const child = document.createElement("div");
+        const firstGrandparent = document.createElement("div");
+        firstGrandparent.innerHTML = title;
+        const secondGrandparent = document.createElement("div");
+        secondGrandparent.innerHTML = description;
+        const thirdGrandparent = document.createElement("button");
+        thirdGrandparent.innerHTML = "Mark as Done!";
+        thirdGrandparent.setAttribute("onclick",`markasDone(${id})`);
+        child.appendChild(firstGrandparent);
+        child.appendChild(secondGrandparent);
+        child.appendChild(thirdGrandparent);
+        child.setAttribute("id",id);
+        return child;
+    }
+    function addTodo(){
+        const title = document.getElementById("title").value;
+        const description = document.getElementById("description").value;
+        const parent = document.getElementById("container");
+        parent.appendChild(createChild(title,description,globalId++));
+
+    }
+    </script>
+</body>
+</html>
