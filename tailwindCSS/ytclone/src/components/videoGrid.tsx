@@ -7,48 +7,41 @@ const VIDEOS = [{
      author:"T-series",
      timestamp:"3 days ago"
     },{
-        title:"The Devarakonda: Family Star|Teaser(Telugu)",
+        title:"The Devarakonda: Family Star|Teaser(Tamil)",
         image:"thumbnail.jpg",
          views:"2.3M",
          author:"T-series",
          timestamp:"3 days ago"
         },{
-            title:"The Devarakonda: Family Star|Teaser(Telugu)",
+            title:"The Devarakonda: Family Star|Teaser(Hindi)",
             image:"thumbnail.jpg",
              views:"2.3M",
              author:"T-series",
              timestamp:"3 days ago"
             },
             {
-                title:"The Devarakonda: Family Star|Teaser(Telugu)",
+                title:"The Devarakonda: Family Star|Teaser(Malayalam)",
                 image:"thumbnail.jpg",
                  views:"2.3M",
                  author:"T-series",
                  timestamp:"3 days ago"
                 },
             {
-                title:"The Devarakonda: Family Star|Teaser(Telugu)",
+                title:"The Devarakonda: Family Star|Teaser(Kannada)",
                 image:"thumbnail.jpg",
                  views:"2.3M",
                  author:"T-series",
                  timestamp:"3 days ago"
                 },
             {
-                title:"The Devarakonda: Family Star|Teaser(Telugu)",
+                title:"The Devarakonda: Family Star|Teaser(English)",
                 image:"thumbnail.jpg",
                  views:"2.3M",
                  author:"T-series",
                  timestamp:"3 days ago"
                 },
             {
-                title:"The Devarakonda: Family Star|Teaser(Telugu)",
-                image:"thumbnail.jpg",
-                 views:"2.3M",
-                 author:"T-series",
-                 timestamp:"3 days ago"
-                },
-            {
-                title:"The Devarakonda: Family Star|Teaser(Telugu)",
+                title:"The Devarakonda: Family Star|Teaser(Spanish)",
                 image:"thumbnail.jpg",
                  views:"2.3M",
                  author:"T-series",
