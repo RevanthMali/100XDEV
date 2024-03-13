@@ -1,2 +1,2 @@
 
-This repository reflects my learning from 100XDEV and this repo comprises files that are coded by me during my learning process.
+This repository reflects my learnings from 100XDEV course and this repo comprises of files that are coded by me during my learning process.
