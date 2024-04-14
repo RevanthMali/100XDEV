@@ -43,7 +43,7 @@ function isLegal(user:User){
      return false;
 }
 function greet(user:User){
-    console.log("hi" + user.firstName);
+    console.log("hi " + user.firstName);
 }
 isLegal({firstName:"revanth",lastName:"reddy", age:20});
 greet({firstName:"revanth",lastName:"reddy", age:20});
