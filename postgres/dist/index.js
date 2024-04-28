@@ -13,7 +13,7 @@ const pg_1 = require("pg");
 require('dotenv').config();
 // Async function to insert data into a table
 const client = new pg_1.Client({
-    connectionString: "postgresql://neonDB_owner:Sv6UjOli7hPp@ep-weathered-meadow-a5rcpedp.us-east-2.aws.neon.tech/neonDB?sslmode=require"
+    connectionString: "url"
 });
 function createUsersTable() {
     return __awaiter(this, void 0, void 0, function* () {
